@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    display: flex;
+    gap: 30px;
+}
+.nav{
+    padding: 20px;
+    background-color: #926FF6;
+
+
+}
+.nav__logo{
+    color: whitesmoke;
+}
+.nav__link{
+ color: white;
+
+}
+.nav__link{
+font-family: Poppins;
+font-size: 11.69px;
+font-weight: 400;
+line-height: 9.12px;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.header__section{
+    text-align: center;
+    color: white;
+}
+.section{
+    background: #926FF6;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.section__h4{
+    font-family: Poppins;
+font-size: 12.27px;
+font-weight: 800;
+color:  #FFE074;
+margin-bottom: 30px;
+
+}
+.section__h2{
+    font-family: Poppins;
+font-size: 62.8px;
+font-weight: 800;
+margin-bottom: 30px;
+
+}
+.section__p{
+    font-family: Poppins;
+font-size: 16.6px;
+font-weight: 300;
+margin-bottom: 30px;
+
+}
+.main__box{
+    display: flex;
+    justify-content: space-around;
+
+}
+.main__h4{
+    font-family: Poppins;
+font-size: 12.27px;
+font-weight: 700;
+color: #FFAE00;
+margin-bottom: 15px;
+}
+.main__h2{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 500;
+color:  #4F4F4F;
+margin-bottom: 31px;
+
+}
+.main__card{
+    width: 350px;
+    
+}
+.main__section1{
+    background-color: #F3F3F3;
+}
+.main__intro{
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    justify-content: space-evenly;
+}
+.main__card2 img {
+    margin: 16px;
+    margin: 0 auto;
+
+}
+.main__card2{
+    text-align: center;
+    
+}
+.main__section2{
+    background-color: #F3F3F3;
+}
+.card2__text{
+    width: 280px;
+}
+.main__h2{
+    margin-top: 17px;
+    margin-bottom: 10px;
+}
+.text__h4{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 12.27px;
+color: #FFAE00;
+margin-bottom: 15px;
+padding-top: 105px;
+}
+.text__h2{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+color: #4F4F4F;
+margin-bottom: 15px
+;
+}
+.section__info{
+    display: flex;
+    gap: 25px;
+    
+    
+}
+.main__section3{
+    padding-bottom: 150px;
+}
+.text__ul{
+    color:  #828282;
+    transition: 0.5s;
+    padding: 5px;
+
+}
+.text__ul:hover{
+    background: #F3849F;
+    border-radius: 30px;
+    color: white;
+}
+
+.main__foto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+    margin-top: 20px;
+}
+
+.foto:nth-of-type(1){
+    width: 529px;
+    height: 271px;
+}
+.foto:nth-of-type(2){
+  width: 555px;
+  height: 271px;
+}
+.foto:nth-of-type(3){
+    width: 735px;
+    height: 271px;
+  }
+  .foto:nth-of-type(4){
+    width: 359px;
+    height: 271px;
+  }
+  .foto:nth-of-type(5){
+    width: 459px;
+    height: 271px;
+  }
+  .foto:nth-of-type(6){
+    width: 625px;
+    height: 271px;
+  }
+  .main__section3{
+    background-color: #F3F3F3;
+  }
+  .main__box1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .card1__img{
+    width: 289px;
+    height: 195px;
+
+  }
+  .main__card1{
+    width: 250px;
+  }
+  .h21{
+    margin-bottom: 10px;
+    margin-top: 27px;
+ color:  #F3849F;
+    font-size: 13px;
+    font-weight: 600;
+
+  }
+  .h22{
+    margin-bottom: 10px;
+    margin-top: 27px;
+color:  #926FF6;
+font-size: 13px;
+font-weight: 600;
+
+  }
+  .h23{
+    margin-bottom: 10px;
+    margin-top: 27px;
+color:  #79CFFF;
+font-size: 13px;
+font-weight: 600;
+
+  }
+  .p{
+    color: #4F4F4F;
+    
+  }
+  .section4{
+    background-color:#F7EEFF;
+    padding-bottom: 40px;
+    
+  }
+  .footer{
+    background-color: black;
+    padding: 50px 0;
+  }
+  .footer__text{
+    color: #F7EEFF;
+    text-align: center;
+  }
+.nav__menu,.nav__close{
+    width: 30px;
+    display: none;
+}
+.nav__check{
+    display: none;
+}
